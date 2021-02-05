@@ -26,7 +26,7 @@ GraduateStudent47 advisor AssistantProfessor6
 
 <center><img src="image/import1.png" width="50%" height="50%"></center>
 
-2. OWL-reasoner.dbc 파일 업로드 및 import
+2. SWRL-reasoner.dbc 파일 업로드 및 import
 
 <center><img src="image/import2.png" width="50%" height="50%"></center>
 
@@ -41,7 +41,7 @@ Memory : 56GB
 
 1. 업로드한 코드에서 저장공간 생성 셀 실행
 ```
-%fs mkdirs /FileStore/tables/OWL_data
+%fs mkdirs /FileStore/tables/Dataata
 ```
 <center><img src="image/dataSpace.png" width="70%" height="70%"></center>
 
