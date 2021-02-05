@@ -41,7 +41,7 @@ Memory : 56GB
 
 1. 업로드한 코드에서 저장공간 생성 셀 실행
 ```
-%fs mkdirs /FileStore/tables/Dataata
+%fs mkdirs /FileStore/tables/Data
 ```
 <center><img src="image/dataSpace.png" width="70%" height="70%"></center>
 
@@ -55,7 +55,7 @@ Memory : 56GB
 
 <center><img src="image/dataUpload2.png" width="50%" height="50%"></center>
 
-3. 생성한 데이터 저장공간 OWL_data 선택 및 Save 클릭
+3. 생성한 데이터 저장공간 Data 선택 및 Save 클릭
 
 <center><img src="image/dataUpload3.png" width="70%" height="70%"></center>
 
