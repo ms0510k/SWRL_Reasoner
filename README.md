@@ -18,6 +18,16 @@ GraduateStudent47 undergraduateDegreeFrom University10
 GraduateStudent47 advisor AssistantProfessor6
 ```
 
+rules.txt:
+```
+FullProfessor(?x)^worksFor(?x,?d)^subOrganizationOf(?d,?u)->worksFor(?x,?u)
+FullProfessor(?x)^worksFor(?x,?d)^subOrganizationOf(?d,?u)^FullProfessor(?y)^worksFor(?y,?u)->workMateOf(?x,?y)
+publicationAuthor(?p,?x)^publicationAuthor(?p,?y)->coauthor(?x,?y)
+takesCourse(?x,?c)^GraduateCourse(?c)->GradStudent(?x)
+takesCourse(?x,?c)^takesCourse(?y,?c)^GraduateCourse(?c)->grateClassMate(?x,?y)
+Student(?x)^advisor(?x,?p)^Student(?y)^advisor(?y,?p)^Professor(?p)->fellow(?x,?y)
+```
+
 ## Running
 
 * __Azure Databricks 코드 업로드__
