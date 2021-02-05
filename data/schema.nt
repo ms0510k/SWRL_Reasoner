@@ -1,0 +1,293 @@
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article> <http://www.w3.org/2000/01/rdf-schema#label> "article" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#listedCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#listedCourse> <http://www.w3.org/2000/01/rdf-schema#label> "lists as a course" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#listedCourse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#listedCourse> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+_:Bf8da0605X2D21e1X2D4952X2Dab49X2D2167f128a37a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+_:Bf8da0605X2D21e1X2D4952X2Dab49X2D2167f128a37a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bdb2924eeX2D266fX2D4b8cX2D95eaX2D2d6ede3b3c96 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#age> <http://www.w3.org/2000/01/rdf-schema#label> "is age" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> <http://www.w3.org/2000/01/rdf-schema#label> "publication" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "is documented in" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareDocumentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareDocumentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationDate> <http://www.w3.org/2000/01/rdf-schema#label> "was written on" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#title> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+_:Baf1c39acX2D2f73X2D4b0cX2Dabe5X2D08d316ef44b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Baf1c39acX2D2f73X2D4b0cX2Dabe5X2D08d316ef44b3 <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> .
+_:Baf1c39acX2D2f73X2D4b0cX2Dabe5X2D08d316ef44b3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc> <http://www.w3.org/2000/01/rdf-schema#label> "post doctorate" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> .
+_:Baa915d80X2D5649X2D4581X2D8399X2D2903c700b5f6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Baa915d80X2D5649X2D4581X2D8399X2D2903c700b5f6 <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf> .
+_:Baa915d80X2D5649X2D4581X2D8399X2D2903c700b5f6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#College> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director> <http://www.w3.org/2000/01/rdf-schema#label> "director" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director> <http://www.w3.org/2002/07/owl#intersectionOf> _:Bf8da0605X2D21e1X2D4952X2Dab49X2D2167f128a37a .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor> <http://www.w3.org/2000/01/rdf-schema#label> "is being advised by" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#label> "is part of" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#label> "conference paper" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff> <http://www.w3.org/2000/01/rdf-schema#label> "clerical staff worker" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#orgPublication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#orgPublication> <http://www.w3.org/2000/01/rdf-schema#label> "publishes" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#orgPublication> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#orgPublication> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor> <http://www.w3.org/2000/01/rdf-schema#label> "visiting professor" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+_:B47c2cbaeX2D775bX2D4cf1X2Da9b8X2Daa4d711b07d9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:B7f02be02X2D782aX2D482cX2Dbb44X2D97b23bfff7e1 .
+_:B47c2cbaeX2D775bX2D4cf1X2Da9b8X2Daa4d711b07d9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Ba3765a5dX2D15c6X2D4448X2D91deX2D12b63d1fef01 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Ba3765a5dX2D15c6X2D4448X2D91deX2D12b63d1fef01 <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf> .
+_:Ba3765a5dX2D15c6X2D4448X2D91deX2D12b63d1fef01 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department> .
+_:B5a66a9d2X2D94acX2D4615X2Dbc57X2D5bacf8e2a7ff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B5a66a9d2X2D94acX2D4615X2Dbc57X2D5bacf8e2a7ff <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse> .
+_:B5a66a9d2X2D94acX2D4615X2Dbc57X2D5bacf8e2a7ff <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee> <http://www.w3.org/2000/01/rdf-schema#label> "Employee" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee> <http://www.w3.org/2002/07/owl#intersectionOf> _:B7c95aee6X2D41e7X2D48a3X2Da154X2Dabd89229a7a6 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf> <http://www.w3.org/2000/01/rdf-schema#label> "teaches" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+_:B2409704dX2Dcab7X2D40a4X2Da572X2D3cc71b6f3dd8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B2409704dX2Dcab7X2D40a4X2Da572X2D3cc71b6f3dd8 <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse> .
+_:B2409704dX2Dcab7X2D40a4X2Da572X2D3cc71b6f3dd8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle> <http://www.w3.org/2000/01/rdf-schema#label> "journal article" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone> <http://www.w3.org/2000/01/rdf-schema#label> "telephone number" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> <http://www.w3.org/2000/01/rdf-schema#label> "graduate student" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B2409704dX2Dcab7X2D40a4X2Da572X2D3cc71b6f3dd8 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+_:B7c95aee6X2D41e7X2D48a3X2Da154X2Dabd89229a7a6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+_:B7c95aee6X2D41e7X2D48a3X2Da154X2Dabd89229a7a6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B47c2cbaeX2D775bX2D4cf1X2Da9b8X2Daa4d711b07d9 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup> <http://www.w3.org/2000/01/rdf-schema#label> "research group" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+_:Bdb2924eeX2D266fX2D4b8cX2D95eaX2D2d6ede3b3c96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Bb8747115X2Dfd69X2D4812X2Daac9X2Dc2fb825b2a46 .
+_:Bdb2924eeX2D266fX2D4b8cX2D95eaX2D2d6ede3b3c96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#College> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#College> <http://www.w3.org/2000/01/rdf-schema#label> "school" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#College> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+_:Bad81e164X2Df6ceX2D4613X2D9e2fX2D618528040e8b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:B00aa0bf4X2D501dX2D430aX2D91bdX2D5c5623f9e856 .
+_:Bad81e164X2Df6ceX2D4613X2D9e2fX2D618528040e8b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> <http://www.w3.org/2000/01/rdf-schema#label> "university" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> <http://www.w3.org/2000/01/rdf-schema#label> "has a degree from" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> <http://www.w3.org/2002/07/owl#inverseOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> <http://www.w3.org/2000/01/rdf-schema#label> "teaching course" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff> <http://www.w3.org/2000/01/rdf-schema#label> "administrative staff worker" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent> <http://www.w3.org/2000/01/rdf-schema#label> "undergraduate student" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor> <http://www.w3.org/2000/01/rdf-schema#label> "associate professor" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> <http://www.w3.org/2000/01/rdf-schema#label> "student" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> <http://www.w3.org/2002/07/owl#intersectionOf> _:Bbbd0af41X2Dab55X2D4446X2D8fc8X2D3fec5d0996a0 .
+_:B00aa0bf4X2D501dX2D430aX2D91bdX2D5c5623f9e856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B00aa0bf4X2D501dX2D430aX2D91bdX2D5c5623f9e856 <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf> .
+_:B00aa0bf4X2D501dX2D430aX2D91bdX2D5c5623f9e856 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant> <http://www.w3.org/2000/01/rdf-schema#label> "university teaching assistant" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant> <http://www.w3.org/2002/07/owl#intersectionOf> _:B463fb54eX2D1123X2D471dX2D9e8bX2Dd32aafdcedb9 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf> <http://www.w3.org/2000/01/rdf-schema#label> "is a teaching assistant for" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant> <http://www.w3.org/2000/01/rdf-schema#label> "university research assistant" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Baf1c39acX2D2f73X2D4b0cX2Dabe5X2D08d316ef44b3 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress> <http://www.w3.org/2000/01/rdf-schema#label> "can be reached at" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer> <http://www.w3.org/2000/01/rdf-schema#label> "lecturer" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> .
+_:Bb8747115X2Dfd69X2D4812X2Daac9X2Dc2fb825b2a46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bb8747115X2Dfd69X2D4812X2Daac9X2Dc2fb825b2a46 <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf> .
+_:Bb8747115X2Dfd69X2D4812X2Daac9X2Dc2fb825b2a46 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program> .
+_:B7f02be02X2D782aX2D482cX2Dbb44X2D97b23bfff7e1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B7f02be02X2D782aX2D482cX2Dbb44X2D97b23bfff7e1 <http://www.w3.org/2002/07/owl#onProperty> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> .
+_:B7f02be02X2D782aX2D482cX2Dbb44X2D97b23bfff7e1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliatedOrganizationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliatedOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#label> "is affiliated with" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliatedOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliatedOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department> <http://www.w3.org/2000/01/rdf-schema#label> "university department" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "An university ontology for benchmark tests" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl> <http://www.w3.org/2000/01/rdf-schema#label> "Univ-bench Ontology" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl> <http://www.w3.org/2002/07/owl#versionInfo> "univ-bench-ontology-owl, ver April 1, 2004" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program> <http://www.w3.org/2000/01/rdf-schema#label> "program" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule> <http://www.w3.org/2000/01/rdf-schema#label> "schedule" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#label> "has a doctoral degree from" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair> <http://www.w3.org/2000/01/rdf-schema#label> "chair" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair> <http://www.w3.org/2002/07/owl#intersectionOf> _:B8c826698X2D252eX2D45eaX2Db737X2Dd30f542e8577 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual> <http://www.w3.org/2000/01/rdf-schema#label> "manual" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute> <http://www.w3.org/2000/01/rdf-schema#label> "institute" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> <http://www.w3.org/2000/01/rdf-schema#label> "professor" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationResearch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationResearch> <http://www.w3.org/2000/01/rdf-schema#label> "is about" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationResearch> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationResearch> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse> <http://www.w3.org/2000/01/rdf-schema#label> "is taking" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification> <http://www.w3.org/2000/01/rdf-schema#label> "published specification" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliateOf> <http://www.w3.org/2000/01/rdf-schema#label> "is affiliated with" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliateOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliateOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> <http://www.w3.org/2000/01/rdf-schema#label> "full professor" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport> <http://www.w3.org/2000/01/rdf-schema#label> "technical report" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article> .
+_:Bc4d6bf37X2D22cfX2D440fX2D989bX2Dcc82ece65936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Baa915d80X2D5649X2D4581X2D8399X2D2903c700b5f6 .
+_:Bc4d6bf37X2D22cfX2D440fX2D989bX2Dcc82ece65936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf> <http://www.w3.org/2000/01/rdf-schema#label> "is the head of" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work> <http://www.w3.org/2000/01/rdf-schema#label> "Work" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareVersion> <http://www.w3.org/2000/01/rdf-schema#label> "is version" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> <http://www.w3.org/2000/01/rdf-schema#label> "person" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research> <http://www.w3.org/2000/01/rdf-schema#label> "research work" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#label> "has a masters degree from" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse> <http://www.w3.org/2000/01/rdf-schema#label> "Graduate Level Courses" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+_:B8c826698X2D252eX2D45eaX2Db737X2Dd30f542e8577 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+_:B8c826698X2D252eX2D45eaX2Db737X2Dd30f542e8577 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bc4b85d3eX2D0a2eX2D43ddX2Da942X2Dbf2d14100b7c .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor> <http://www.w3.org/2000/01/rdf-schema#label> "assistant professor" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "organization" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#label> "has an undergraduate degree from" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean> <http://www.w3.org/2000/01/rdf-schema#label> "dean" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean> <http://www.w3.org/2002/07/owl#intersectionOf> _:Bc4d6bf37X2D22cfX2D440fX2D989bX2Dcc82ece65936 .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+_:Bb632890bX2D225eX2D419dX2D8506X2D160c16bb991c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:B5a66a9d2X2D94acX2D4615X2Dbc57X2D5bacf8e2a7ff .
+_:Bb632890bX2D225eX2D419dX2D8506X2D160c16bb991c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor> <http://www.w3.org/2000/01/rdf-schema#label> "was written by" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchProject> <http://www.w3.org/2000/01/rdf-schema#label> "has as a research project" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchProject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchProject> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research> .
+_:Bbbd0af41X2Dab55X2D4446X2D8fc8X2D3fec5d0996a0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+_:Bbbd0af41X2Dab55X2D4446X2D8fc8X2D3fec5d0996a0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bb632890bX2D225eX2D419dX2D8506X2D160c16bb991c .
+_:B463fb54eX2D1123X2D471dX2D9e8bX2Dd32aafdcedb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+_:B463fb54eX2D1123X2D471dX2D9e8bX2Dd32aafdcedb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bad81e164X2Df6ceX2D4613X2D9e2fX2D618528040e8b .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff> <http://www.w3.org/2000/01/rdf-schema#label> "systems staff worker" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "faculty member" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus> <http://www.w3.org/2000/01/rdf-schema#label> "has as an alumnus" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#University> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus> <http://www.w3.org/2002/07/owl#inverseOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software> <http://www.w3.org/2000/01/rdf-schema#label> "software program" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchInterest> <http://www.w3.org/2000/01/rdf-schema#label> "is researching" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book> <http://www.w3.org/2000/01/rdf-schema#label> "book" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#member> <http://www.w3.org/2000/01/rdf-schema#label> "has as a member" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#member> <http://www.w3.org/2000/01/rdf-schema#range> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf> <http://www.w3.org/2000/01/rdf-schema#label> "member of" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#member> .
+_:Bc4b85d3eX2D0a2eX2D43ddX2Da942X2Dbf2d14100b7c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Ba3765a5dX2D15c6X2D4448X2D91deX2D12b63d1fef01 .
+_:Bc4b85d3eX2D0a2eX2D43ddX2Da942X2Dbf2d14100b7c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication> <http://www.w3.org/2000/01/rdf-schema#label> "unnoficial publication" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#officeNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#officeNumber> <http://www.w3.org/2000/01/rdf-schema#label> "office room No." .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#tenured> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#tenured> <http://www.w3.org/2000/01/rdf-schema#label> "is tenured:" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#tenured> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> <http://www.w3.org/2000/01/rdf-schema#label> "Works For" .
+<http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf> .
